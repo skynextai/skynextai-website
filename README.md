@@ -38,4 +38,4 @@ Cloudflare's free plan currently has usage limits and providers can change plans
 
 - The contact and footer links use `https://www.skynextai.thequickhire.in`.
 - Replace the external circuit-board photo URL in `index.html` with a company-owned image if you have one. The current photo is served by Unsplash and needs an internet connection.
-- Add a real project email or inquiry form destination once you choose where project requests should go.
+- Add a real project email or inquiry form destination once you choose where project requests should go.# skynextai
