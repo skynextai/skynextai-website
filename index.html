@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#171918" />
+    <meta name="theme-color" content="#061326" />
     <meta name="description" content="SKYNEXT AI builds autonomous agents, generative AI products, and high-performance software for ambitious teams." />
     <title>SKYNEXT AI — Systems that move work forward</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -156,7 +156,7 @@
                 </div>
                 <div class="work-card-copy"><div class="work-card-meta"><span>AUTONOMOUS ERP</span><span>03 / 04</span></div><h3>KhataMind</h3><p>An autonomous, zero-entry ERP designed to reduce manual business record-keeping.</p><span class="work-card-link">Explore the live platform <b>↗</b></span></div>
               </a>
-              <article class="work-card work-automation">
+              <a class="work-card work-automation" href="#contact" aria-label="Discuss Railway and n8n automation">
                 <div class="work-preview automation-preview" aria-hidden="true">
                   <div class="preview-chrome"><i></i><i></i><i></i><span>workflow / automation</span></div>
                   <div class="automation-label"><span>OPERATIONS AUTOMATION</span><b>LIVE FLOW</b></div>
@@ -164,7 +164,7 @@
                   <div class="automation-footer"><span>RAILWAY WORKFLOWS</span><span>CONNECTED SYSTEMS</span></div>
                 </div>
                 <div class="work-card-copy"><div class="work-card-meta"><span>RAILWAY + N8N</span><span>04 / 04</span></div><h3>Operations automation</h3><p>Railway-related workflow automation and n8n integrations connecting repeatable tasks across systems.</p><span class="work-card-link">Discuss an automation project <b>↗</b></span></div>
-              </article>
+              </a>
             </div>
           </div>
         </section>
@@ -190,19 +190,132 @@
         </section>
 
         <section class="contact-section" id="contact">
-          <div class="contact-inner section-wrap reveal">
-            <div class="section-kicker"><span>05</span> YOUR NEXT MOVE STARTS HERE</div>
-            <div class="contact-layout"><div><h2>Have a problem<br />worth <span class="contact-accent">solving?</span></h2><p>Tell us what your team is trying to make possible. We’ll help you find the right next step.</p></div><div class="contact-action"><a class="button button-dark" href="https://www.skynextai.thequickhire.in" target="_blank" rel="noreferrer">Visit SKYNEXT AI <span aria-hidden="true">↗</span></a><span class="contact-note">AI systems. Real outcomes.</span><span class="contact-orbit" aria-hidden="true">✳</span></div></div>
-          </div>
+        <div class="contact-inner section-wrap reveal">
+
+            <div class="section-kicker">
+            <span>05</span> YOUR NEXT MOVE STARTS HERE
+            </div>
+
+            <div class="contact-layout">
+
+            <div>
+                <h2>
+                Have a problem<br />
+                worth <span class="contact-accent">solving?</span>
+                </h2>
+
+                <p>
+                Tell us what you're building, what isn't working,
+                or what you'd like to automate. Let's talk about it.
+                </p>
+            </div>
+
+            <div class="contact-action">
+
+                <!-- EMAIL -->
+                <a
+                class="button button-dark"
+                href="mailto:skynext221@gmail.com?subject=New%20Project%20Inquiry"
+                >
+                Email us
+                <span aria-hidden="true">↗</span>
+                </a>
+
+                <!-- WHATSAPP -->
+                <a
+                class="button button-dark"
+                href="https://wa.me/918987767301?text=Hello%20SKYNEXT%20AI,%20I%20would%20like%20to%20discuss%20a%20project."
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                WhatsApp us
+                <span aria-hidden="true">↗</span>
+                </a>
+
+                <form class="contact-form" id="contact-form">
+                  <div class="contact-fields">
+                    <div class="contact-field">
+                      <label for="contact-name">Your name</label>
+                      <input id="contact-name" name="name" autocomplete="name" required />
+                    </div>
+                    <div class="contact-field">
+                      <label for="contact-email">Email address</label>
+                      <input id="contact-email" name="email" type="email" autocomplete="email" required />
+                    </div>
+                    <div class="contact-field contact-field-full">
+                      <label for="contact-service">What do you need?</label>
+                      <select id="contact-service" name="service" required>
+                        <option value="" selected disabled>Select a project area</option>
+                        <option>Agentic AI</option>
+                        <option>Generative AI</option>
+                        <option>Web or SaaS application</option>
+                        <option>Workflow automation</option>
+                        <option>Other software project</option>
+                      </select>
+                    </div>
+                    <div class="contact-field contact-field-full">
+                      <label for="contact-message">Tell us about the project</label>
+                      <textarea id="contact-message" name="message" rows="4" required></textarea>
+                    </div>
+                  </div>
+                  <button class="button button-dark contact-submit" type="submit">Prepare email <span aria-hidden="true">↗</span></button>
+                  <p class="form-status" id="contact-form-status" aria-live="polite">Submitting opens a prefilled draft in your email app.</p>
+                </form>
+
+                <span class="contact-note">
+                AI systems · Web apps · Automation · Custom software
+                </span>
+
+                <span class="contact-orbit" aria-hidden="true">✳</span>
+
+            </div>
+
+            </div>
+        </div>
         </section>
       </main>
 
-      <footer class="site-footer section-wrap">
-        <a class="wordmark footer-wordmark" href="#top"><span class="mark" aria-hidden="true"><i></i><i></i><i></i></span><span>SKYNEXT<span class="wordmark-ai">.AI</span></span></a>
-        <span class="footer-tagline">Intelligence, in motion.</span>
-        <div class="footer-links"><a href="#capabilities">Capabilities</a><a href="#approach">Approach</a><a href="https://www.skynextai.thequickhire.in" target="_blank" rel="noreferrer">Website ↗</a></div>
-        <span class="copyright">© <span id="year"></span> SKYNEXT AI</span>
-      </footer>
+    <footer class="site-footer section-wrap">
+
+    <a class="wordmark footer-wordmark" href="#top">
+        <span class="mark" aria-hidden="true">
+        <i></i><i></i><i></i>
+        </span>
+        <span>
+        SKYNEXT<span class="wordmark-ai">.AI</span>
+        </span>
+    </a>
+
+    <span class="footer-tagline">
+        Intelligence, in motion.
+    </span>
+
+    <div class="footer-links">
+        <a href="#capabilities">Capabilities</a>
+        <a href="#work">Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+
+        <a
+        href="mailto:skynext221@gmail.com?subject=New%20Project%20Inquiry"
+        >
+        Email
+        </a>
+
+        <a
+        href="https://wa.me/918987767301?text=Hello%20SKYNEXT%20AI,%20I%20would%20like%20to%20discuss%20a%20project."
+        target="_blank"
+        rel="noopener noreferrer"
+        >
+        WhatsApp
+        </a>
+    </div>
+
+    <span class="copyright">
+        © <span id="year"></span> SKYNEXT AI
+    </span>
+
+    </footer>
     </div>
   </body>
 </html>
