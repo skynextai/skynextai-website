@@ -36,11 +36,10 @@ Cloudflare's free plan currently has usage limits and providers can change plans
 
 ## Before publishing
 
-- The contact and footer links use `https://www.skynextai.thequickhire.in`.
+- The contact and footer links use `https://skynextai.thequickhire.in`.
+- `robots.txt` and `sitemap.xml` point search crawlers to the canonical homepage. This is currently a single-page site, so section links such as `#contact` are not separate pages in Google's index.
+- After publishing, verify the domain in Google Search Console, submit `https://skynextai.thequickhire.in/sitemap.xml`, and use URL Inspection to request a crawl. Crawling and inclusion in search results are controlled by Google and are not immediate or guaranteed.
 - Replace the external circuit-board photo URL in `index.html` with a company-owned image if you have one. The current photo is served by Unsplash and needs an internet connection.
 - Add a real project email or inquiry form destination once you choose where project requests should go.# skynextai
-# skynextai-website
-# skynextai-website
-# skynextai-website
 # skynextai-website
 # skynextai-website
